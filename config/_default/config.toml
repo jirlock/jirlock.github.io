@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://jirlock.github.io/jirlock/"
+baseurl = "https://jirlock.github.io"
 publishDir = "docs"
 languageCode = "en-us"
 paginate = 5
