@@ -6,230 +6,400 @@
         <description>Recent content in Posts on Jirlock&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 27 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jirlock.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Image gallery</title>
-        <link>https://jirlock.github.io/p/image-gallery/</link>
-        <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
+        <lastBuildDate>Mon, 28 Aug 2023 09:08:21 +0900</lastBuildDate><atom:link href="https://jirlock.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Microfilm Gallery 3</title>
+        <link>https://jirlock.github.io/p/microfilm-gallery-3/</link>
+        <pubDate>Mon, 28 Aug 2023 09:08:21 +0900</pubDate>
         
-        <guid>https://jirlock.github.io/p/image-gallery/</guid>
-        <description>&lt;img src="https://jirlock.github.io/p/image-gallery/image.png" alt="Featured image of post Image gallery" /&gt;&lt;p&gt;Hugo theme Stack supports the creation of interactive image galleries using Markdown. It&amp;rsquo;s powered by &lt;a class=&#34;link&#34; href=&#34;https://photoswipe.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;PhotoSwipe&lt;/a&gt; and its syntax was inspired by &lt;a class=&#34;link&#34; href=&#34;https://typlog.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Typlog&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To use this feature, the image must be in the same directory as the Markdown file, as it uses Hugo&amp;rsquo;s page bundle feature to read the dimensions of the image. &lt;strong&gt;External images are not supported.&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;syntax&#34;&gt;Syntax&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Image 1&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;1.jpg&lt;/span&gt;) ![&lt;span class=&#34;nt&#34;&gt;Image 2&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;2.jpg&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://jirlock.github.io/p/image-gallery/1.jpg&#34;
-	width=&#34;2000&#34;
-	height=&#34;1400&#34;
-	srcset=&#34;https://jirlock.github.io/p/image-gallery/1_hudd2e8259c20ed0dcaa856c253552e90f_14625_480x0_resize_q75_box.jpg 480w, https://jirlock.github.io/p/image-gallery/1_hudd2e8259c20ed0dcaa856c253552e90f_14625_1024x0_resize_q75_box.jpg 1024w&#34;
+        <guid>https://jirlock.github.io/p/microfilm-gallery-3/</guid>
+        <description>&lt;img src="https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima.JPG" alt="Featured image of post Microfilm Gallery 3" /&gt;&lt;p&gt;&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima_hu441739990bcb94ff024e704f47d04b4e_616718_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima_hu441739990bcb94ff024e704f47d04b4e_616718_1024x0_resize_q75_box.JPG 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Image 1&#34;
+		alt=&#34;dock&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;142&#34;
-		data-flex-basis=&#34;342px&#34;
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
 	
-&gt; &lt;img src=&#34;https://jirlock.github.io/p/image-gallery/2.jpg&#34;
-	width=&#34;1500&#34;
-	height=&#34;2250&#34;
-	srcset=&#34;https://jirlock.github.io/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_480x0_resize_q75_box.jpg 480w, https://jirlock.github.io/p/image-gallery/2_hubce42636ecacc1a380b462f3110efcec_37455_1024x0_resize_q75_box.jpg 1024w&#34;
+&gt;
+&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima2.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima2_hud83cd8186f33a6a14a3e229ddd3036fb_330536_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima2_hud83cd8186f33a6a14a3e229ddd3036fb_330536_1024x0_resize_q75_box.JPG 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;Image 2&#34;
+		alt=&#34;movement&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt;
+&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima3.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima3_hu09858d964666fb2a9f8af18ecfc27ccd_985633_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima3_hu09858d964666fb2a9f8af18ecfc27ccd_985633_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;encounter&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt;
+&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima4.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima4_hu50d9b16111a1bfee643da0c7f331e9dc_924163_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima4_hu50d9b16111a1bfee643da0c7f331e9dc_924163_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;railway&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt;
+&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima5.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima5_hu5c3b2210bed7577f45630ed8f9b2916a_759402_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima5_hu5c3b2210bed7577f45630ed8f9b2916a_759402_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;gate&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt;
+&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima6.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima6_hua91587520f940c5a6f2df3b7d0c27782_859989_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima6_hua91587520f940c5a6f2df3b7d0c27782_859989_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;memory&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt;
+&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima7.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima7_hu1f1b49e8796cd9955b8eac0d8363abc1_573038_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima7_hu1f1b49e8796cd9955b8eac0d8363abc1_573038_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;battleships&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt;
+&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima8.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima8_hufa8bf1af1252b354673163963a7e765a_622072_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima8_hufa8bf1af1252b354673163963a7e765a_622072_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;time&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt;
+&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima9.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima9_hu1cf99ba92963ff084fbdfc0c9046746e_502362_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima9_hu1cf99ba92963ff084fbdfc0c9046746e_502362_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;frame&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt;
+&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima10.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima10_hue86193183fe4e423f74055ff985ac187_1066097_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima10_hue86193183fe4e423f74055ff985ac187_1066097_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;playground&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt;
+&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima11.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima11_hu00d8347759b256e258edbf20295b9a56_529630_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-3/images/hiroshima11_hu00d8347759b256e258edbf20295b9a56_529630_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;ferry&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt;
+&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/iwakuni.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/iwakuni_hu53629f1c9c7a4e8bb7bfa71908cfa724_547317_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-3/images/iwakuni_hu53629f1c9c7a4e8bb7bfa71908cfa724_547317_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;assembly&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt;
+&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/kyushu.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/kyushu_hu04b10127b60d71704189f6904a7dd25a_744072_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-3/images/kyushu_hu04b10127b60d71704189f6904a7dd25a_744072_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;oops&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt;
+&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/kyushu2.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-3/images/kyushu2_hua64adebad776d0afff0891048f622105_751279_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-3/images/kyushu2_hua64adebad776d0afff0891048f622105_751279_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;bubbles&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Photo by jirlock @ around Hiroshima&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>Microfilm Gallery 2</title>
+        <link>https://jirlock.github.io/p/microfilm-gallery-2/</link>
+        <pubDate>Mon, 28 Aug 2023 09:07:55 +0900</pubDate>
+        
+        <guid>https://jirlock.github.io/p/microfilm-gallery-2/</guid>
+        <description>&lt;img src="https://jirlock.github.io/p/microfilm-gallery-2/images/shibuya.JPG" alt="Featured image of post Microfilm Gallery 2" /&gt;&lt;p&gt;&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-2/images/shibuya.JPG&#34;
+	width=&#34;1138&#34;
+	height=&#34;1700&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-2/images/shibuya_hu9db25baa0bfce7cfa2349649391e37b7_783105_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-2/images/shibuya_hu9db25baa0bfce7cfa2349649391e37b7_783105_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;platform&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;66&#34;
 		data-flex-basis=&#34;160px&#34;
 	
+&gt; &lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-2/images/shibuya2.JPG&#34;
+	width=&#34;1140&#34;
+	height=&#34;1704&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-2/images/shibuya2_hu5323a3a940432440ad103d4646ce2dc3_604693_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-2/images/shibuya2_hu5323a3a940432440ad103d4646ce2dc3_604693_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;fire&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;66&#34;
+		data-flex-basis=&#34;160px&#34;
+	
+&gt; &lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-2/images/nogizaka.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-2/images/nogizaka_huf098e6ebd370b12e3e92aacd8b67ec62_830632_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-2/images/nogizaka_huf098e6ebd370b12e3e92aacd8b67ec62_830632_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;protection&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt; &lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-2/images/omotesando.JPG&#34;
+	width=&#34;1232&#34;
+	height=&#34;1840&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-2/images/omotesando_hue9bd9e43593d9b32b84353fc961d4cbb_356069_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-2/images/omotesando_hue9bd9e43593d9b32b84353fc961d4cbb_356069_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;sharpness&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;66&#34;
+		data-flex-basis=&#34;160px&#34;
+	
+&gt; &lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-2/images/yoyogi.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-2/images/yoyogi_hu8625f0e6272fe388cb9d6f2d0fd246fb_422120_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-2/images/yoyogi_hu8625f0e6272fe388cb9d6f2d0fd246fb_422120_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;gym&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt; &lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-2/images/shinjuku.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-2/images/shinjuku_huc5767d5f869ecd38c2af0464ec48cf01_830981_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-2/images/shinjuku_huc5767d5f869ecd38c2af0464ec48cf01_830981_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;shinjuku&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
 &gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@mymind&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;mymind&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@lukechesser&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Luke Chesser&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Photo by jirlock @ around Shibuya&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         </item>
         <item>
-        <title>Hello World</title>
-        <link>https://jirlock.github.io/p/hello-world/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        <title>Microfilm Gallery 1</title>
+        <link>https://jirlock.github.io/p/microfilm-gallery-1/</link>
+        <pubDate>Mon, 28 Aug 2023 08:50:38 +0900</pubDate>
         
-        <guid>https://jirlock.github.io/p/hello-world/</guid>
-        <description>&lt;img src="https://jirlock.github.io/p/hello-world/cover.jpg" alt="Featured image of post Hello World" /&gt;&lt;p&gt;Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!&lt;/p&gt;
-&lt;p&gt;For more information about this theme, check the documentation: &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://stack.jimmycai.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Want a site like this? Check out &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;hugo-theme-stack-stater&lt;/a&gt;&lt;/p&gt;
+        <guid>https://jirlock.github.io/p/microfilm-gallery-1/</guid>
+        <description>&lt;img src="https://jirlock.github.io/p/microfilm-gallery-1/images/todai.JPG" alt="Featured image of post Microfilm Gallery 1" /&gt;&lt;p&gt;&lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-1/images/todai.JPG&#34;
+	width=&#34;1232&#34;
+	height=&#34;1840&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-1/images/todai_huecccc8375347b4add8fcff34fd6be2fc_634490_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-1/images/todai_huecccc8375347b4add8fcff34fd6be2fc_634490_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;wall&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;66&#34;
+		data-flex-basis=&#34;160px&#34;
+	
+&gt; &lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-1/images/todai2.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-1/images/todai2_hu0ff54f847b62590b0ac3896a3e6f3de8_1253378_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-1/images/todai2_hu0ff54f847b62590b0ac3896a3e6f3de8_1253378_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;people and leaves&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt; &lt;img src=&#34;https://jirlock.github.io/p/microfilm-gallery-1/images/uenoMuseum.JPG&#34;
+	width=&#34;1840&#34;
+	height=&#34;1232&#34;
+	srcset=&#34;https://jirlock.github.io/p/microfilm-gallery-1/images/uenoMuseum_huec736423fd1a2376c766da0ff9db6a05_468257_480x0_resize_q75_box.JPG 480w, https://jirlock.github.io/p/microfilm-gallery-1/images/uenoMuseum_huec736423fd1a2376c766da0ff9db6a05_468257_1024x0_resize_q75_box.JPG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;museum&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;149&#34;
+		data-flex-basis=&#34;358px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@pawel_czerwinski&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Pawel Czerwinski&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Photo by jirlock @ around Hongo&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         </item>
         <item>
-        <title>New Post</title>
-        <link>https://jirlock.github.io/p/new-post/</link>
-        <pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate>
+        <title>PointCloudGallery1</title>
+        <link>https://jirlock.github.io/p/pointcloudgallery1/</link>
+        <pubDate>Mon, 28 Aug 2023 08:23:59 +0900</pubDate>
         
-        <guid>https://jirlock.github.io/p/new-post/</guid>
-        <description>&lt;p&gt;日本語でもいけるのか果たして．．．&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;l&#34;&gt;std::cout &amp;lt;&amp;lt; &amp;#34;HELLO!&amp;#34; &amp;lt;&amp;lt; std::endl;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>Shortcodes</title>
-        <link>https://jirlock.github.io/p/shortcodes/</link>
-        <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://jirlock.github.io/p/shortcodes/</guid>
-        <description>&lt;img src="https://jirlock.github.io/p/shortcodes/cover.jpg" alt="Featured image of post Shortcodes" /&gt;&lt;p&gt;For more details, check out the &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/writing/shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;bilibili-video&#34;&gt;Bilibili video&lt;/h2&gt;
-
-
-
-
-
-
-    
-
-
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1d4411N7zD&#34;
-            scrolling=&#34;no&#34;
-            frameborder=&#34;no&#34;
-            framespacing=&#34;0&#34;
-            allowfullscreen=&#34;true&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;tencent-video&#34;&gt;Tencent video&lt;/h2&gt;
-
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe src=&#34;https://v.qq.com/txp/iframe/player.html?vid=g0014r3khdw&amp;auto=0&#34; 
-            scrolling=&#34;no&#34; 
-            frameborder=&#34;no&#34;
-            framespacing=&#34;0&#34; 
-            allowfullscreen=&#34;true&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;youtube-video&#34;&gt;YouTube video&lt;/h2&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe loading=&#34;lazy&#34; 
-            src=&#34;https://www.youtube.com/embed/0qwALOOvUik&#34; 
-            allowfullscreen 
-            title=&#34;YouTube Video&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;generic-video-file&#34;&gt;Generic video file&lt;/h2&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;video
-    controls
-    src=&#34;https://www.w3schools.com/tags/movie.mp4&#34;
-    
-    
-    &gt;
-        &lt;p&gt;
-            Your browser doesn&#39;t support HTML5 video. Here is a
-            &lt;a href=&#34;https://www.w3schools.com/tags/movie.mp4&#34;&gt;link to the video&lt;/a&gt; instead.
-        &lt;/p&gt;
-    &lt;/video&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;gist&#34;&gt;Gist&lt;/h2&gt;
-&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/CaiJimmy/e2751a943de10b2a5b3a8a6c2120cb86.js&#34;&gt;&lt;/script&gt;
-
-&lt;h2 id=&#34;gitlab&#34;&gt;GitLab&lt;/h2&gt;
-&lt;script
-    type=&#34;application/javascript&#34;
-    src=&#34;https://gitlab.com/-/snippets/2589724.js&#34;
-&gt;&lt;/script&gt;
-&lt;h2 id=&#34;quote&#34;&gt;Quote&lt;/h2&gt;
+        <guid>https://jirlock.github.io/p/pointcloudgallery1/</guid>
+        <description>&lt;img src="https://jirlock.github.io/p/pointcloudgallery1/2.png" alt="Featured image of post PointCloudGallery1" /&gt;&lt;p&gt;&lt;img src=&#34;https://jirlock.github.io/p/pointcloudgallery1/1.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://jirlock.github.io/p/pointcloudgallery1/1_hu411a968981f08b987e156f7d8635857d_2744869_480x0_resize_box_3.png 480w, https://jirlock.github.io/p/pointcloudgallery1/1_hu411a968981f08b987e156f7d8635857d_2744869_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;lecture room 1&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt; &lt;img src=&#34;https://jirlock.github.io/p/pointcloudgallery1/2.png&#34;
+	width=&#34;4096&#34;
+	height=&#34;2048&#34;
+	srcset=&#34;https://jirlock.github.io/p/pointcloudgallery1/2_hufe759ed3f021aae428cf3628966e69fa_19414584_480x0_resize_box_3.png 480w, https://jirlock.github.io/p/pointcloudgallery1/2_hufe759ed3f021aae428cf3628966e69fa_19414584_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;lecture room 2&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;200&#34;
+		data-flex-basis=&#34;480px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;A famous person, &lt;/span&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Book&#34;&gt;&lt;cite&gt;The book they wrote&lt;/cite&gt;&lt;/a&gt;&lt;/span&gt;&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@codioful&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Codioful&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/photos/WDSN62Qdxuk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Created using Blender.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         </item>
         <item>
-        <title>Math Typesetting</title>
-        <link>https://jirlock.github.io/p/math-typesetting/</link>
-        <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+        <title>Hi!!</title>
+        <link>https://jirlock.github.io/p/hi/</link>
+        <pubDate>Sun, 27 Aug 2023 20:50:58 +0900</pubDate>
         
-        <guid>https://jirlock.github.io/p/math-typesetting/</guid>
-        <description>&lt;p&gt;Stack has built-in support for math typesetting using &lt;a class=&#34;link&#34; href=&#34;https://katex.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;KaTeX&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;It&amp;rsquo;s not enabled by default side-wide,&lt;/strong&gt; but you can enable it for individual posts by adding &lt;code&gt;math: true&lt;/code&gt; to the front matter. Or you can enable it side-wide by adding &lt;code&gt;math = true&lt;/code&gt; to the &lt;code&gt;params.article&lt;/code&gt; section in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;inline-math&#34;&gt;Inline math&lt;/h2&gt;
-&lt;p&gt;This is an inline mathematical expression: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;block-math&#34;&gt;Block math&lt;/h2&gt;
-&lt;p&gt;$$
-\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;$$
-f(x) = \int_{-\infty}^\infty\hat f(\xi),e^{2 \pi i \xi x},d\xi
-$$&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$$
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
+        <guid>https://jirlock.github.io/p/hi/</guid>
+        <description>&lt;img src="https://jirlock.github.io/p/hi/oceanWave.JPG" alt="Featured image of post Hi!!" /&gt;&lt;p&gt;Hello!! I&amp;rsquo;m starting a blog.&lt;/p&gt;
+</description>
         </item>
         
     </channel>
