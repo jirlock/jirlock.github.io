@@ -20,7 +20,7 @@ subtitle = "Welcome!!!"
 [sidebar.avatar]
 enabled = true
 local = true
-src = "img/image.png"
+src = "img/kyushu_icon.png"
 
 [article]
 math = false

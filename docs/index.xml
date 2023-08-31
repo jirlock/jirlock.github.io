@@ -6,7 +6,45 @@
         <description>Recent content on Jirlock&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 28 Aug 2023 18:37:44 +0900</lastBuildDate><atom:link href="https://jirlock.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 31 Aug 2023 19:35:44 +0900</lastBuildDate><atom:link href="https://jirlock.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Kyushu Character</title>
+        <link>https://jirlock.github.io/p/kyushu-character/</link>
+        <pubDate>Thu, 31 Aug 2023 19:35:44 +0900</pubDate>
+        
+        <guid>https://jirlock.github.io/p/kyushu-character/</guid>
+        <description>&lt;img src="https://jirlock.github.io/p/kyushu-character/images/kyushu_character_thumbnail.png" alt="Featured image of post Kyushu Character" /&gt;&lt;p&gt;&lt;img src=&#34;https://jirlock.github.io/p/kyushu-character/images/kyushu_character_original.png&#34;
+	width=&#34;4032&#34;
+	height=&#34;1113&#34;
+	srcset=&#34;https://jirlock.github.io/p/kyushu-character/images/kyushu_character_original_hu9094830ff5460f471e461f89accb1688_4719388_480x0_resize_box_3.png 480w, https://jirlock.github.io/p/kyushu-character/images/kyushu_character_original_hu9094830ff5460f471e461f89accb1688_4719388_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;original&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;362&#34;
+		data-flex-basis=&#34;869px&#34;
+	
+&gt;
+&lt;img src=&#34;https://jirlock.github.io/p/kyushu-character/images/kyushu_character.png&#34;
+	width=&#34;1191&#34;
+	height=&#34;842&#34;
+	srcset=&#34;https://jirlock.github.io/p/kyushu-character/images/kyushu_character_hu495a4a897d53cf1a0b80a5112379fa16_87133_480x0_resize_box_3.png 480w, https://jirlock.github.io/p/kyushu-character/images/kyushu_character_hu495a4a897d53cf1a0b80a5112379fa16_87133_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;asset image&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;141&#34;
+		data-flex-basis=&#34;339px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;kyushu_character.ai&#34; &gt;Kyushu_character.ai&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve found some fascinating way of drawing people from pictures exhibited in a museum in Kyushu. I created some assets for architectural visualization from it.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>library</title>
         <link>https://jirlock.github.io/p/library/</link>
         <pubDate>Mon, 28 Aug 2023 18:37:44 +0900</pubDate>
@@ -95,8 +133,8 @@
 		data-flex-grow=&#34;100&#34;
 		data-flex-basis=&#34;240px&#34;
 	
-&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;video
     controls
     src=&#34;images/movie1.mp4&#34;
@@ -560,6 +598,89 @@
         
         <guid>https://jirlock.github.io/p/hi/</guid>
         <description>&lt;img src="https://jirlock.github.io/p/hi/oceanWave.JPG" alt="Featured image of post Hi!!" /&gt;&lt;p&gt;Hello!! I&amp;rsquo;m starting a blog.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Shortcodes</title>
+        <link>https://jirlock.github.io/p/shortcodes/</link>
+        <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://jirlock.github.io/p/shortcodes/</guid>
+        <description>&lt;img src="https://jirlock.github.io/p/shortcodes/cover.jpg" alt="Featured image of post Shortcodes" /&gt;&lt;p&gt;For more details, check out the &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/writing/shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;bilibili-video&#34;&gt;Bilibili video&lt;/h2&gt;
+
+
+
+
+
+
+    
+
+
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1d4411N7zD&#34;
+            scrolling=&#34;no&#34;
+            frameborder=&#34;no&#34;
+            framespacing=&#34;0&#34;
+            allowfullscreen=&#34;true&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;tencent-video&#34;&gt;Tencent video&lt;/h2&gt;
+
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe src=&#34;https://v.qq.com/txp/iframe/player.html?vid=g0014r3khdw&amp;auto=0&#34; 
+            scrolling=&#34;no&#34; 
+            frameborder=&#34;no&#34;
+            framespacing=&#34;0&#34; 
+            allowfullscreen=&#34;true&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;youtube-video&#34;&gt;YouTube video&lt;/h2&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/0qwALOOvUik&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;generic-video-file&#34;&gt;Generic video file&lt;/h2&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;video
+    controls
+    src=&#34;https://www.w3schools.com/tags/movie.mp4&#34;
+    
+    
+    &gt;
+        &lt;p&gt;
+            Your browser doesn&#39;t support HTML5 video. Here is a
+            &lt;a href=&#34;https://www.w3schools.com/tags/movie.mp4&#34;&gt;link to the video&lt;/a&gt; instead.
+        &lt;/p&gt;
+    &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;gist&#34;&gt;Gist&lt;/h2&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/CaiJimmy/e2751a943de10b2a5b3a8a6c2120cb86.js&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;gitlab&#34;&gt;GitLab&lt;/h2&gt;
+&lt;script
+    type=&#34;application/javascript&#34;
+    src=&#34;https://gitlab.com/-/snippets/2589724.js&#34;
+&gt;&lt;/script&gt;
+&lt;h2 id=&#34;quote&#34;&gt;Quote&lt;/h2&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;A famous person, &lt;/span&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Book&#34;&gt;&lt;cite&gt;The book they wrote&lt;/cite&gt;&lt;/a&gt;&lt;/span&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@codioful&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Codioful&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/photos/WDSN62Qdxuk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         </item>
         <item>

@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jirlock.github.io/</loc>
-    <lastmod>2023-08-28T18:37:44+09:00</lastmod>
+    <lastmod>2023-08-31T19:35:44+09:00</lastmod>
+  </url><url>
+    <loc>https://jirlock.github.io/p/kyushu-character/</loc>
+    <lastmod>2023-08-31T19:35:44+09:00</lastmod>
+  </url><url>
+    <loc>https://jirlock.github.io/post/</loc>
+    <lastmod>2023-08-31T19:35:44+09:00</lastmod>
   </url><url>
     <loc>https://jirlock.github.io/tags/3dcg/</loc>
     <lastmod>2023-08-28T18:37:44+09:00</lastmod>
@@ -15,9 +21,6 @@
     <lastmod>2023-08-28T18:37:44+09:00</lastmod>
   </url><url>
     <loc>https://jirlock.github.io/tags/point-cloud/</loc>
-    <lastmod>2023-08-28T18:37:44+09:00</lastmod>
-  </url><url>
-    <loc>https://jirlock.github.io/post/</loc>
     <lastmod>2023-08-28T18:37:44+09:00</lastmod>
   </url><url>
     <loc>https://jirlock.github.io/tags/</loc>
@@ -43,6 +46,9 @@
   </url><url>
     <loc>https://jirlock.github.io/p/hi/</loc>
     <lastmod>2023-08-27T20:50:58+09:00</lastmod>
+  </url><url>
+    <loc>https://jirlock.github.io/p/shortcodes/</loc>
+    <lastmod>2023-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jirlock.github.io/archives/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>

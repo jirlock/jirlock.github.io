@@ -95,8 +95,8 @@
 		data-flex-grow=&#34;100&#34;
 		data-flex-basis=&#34;240px&#34;
 	
-&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;video
     controls
     src=&#34;images/movie1.mp4&#34;
