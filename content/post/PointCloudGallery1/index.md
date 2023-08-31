@@ -9,7 +9,7 @@ hidden: false
 comments: true
 draft: false
 tags:
-    - Point Cloud
+    - point cloud
 ---
 
 ![lecture room 1](1.png) ![lecture room 2](2.png)

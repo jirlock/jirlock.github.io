@@ -9,7 +9,7 @@ hidden: false
 comments: true
 draft: false
 tags:
-    - Microfilm
+    - microfilm
 ---
 
 ![dock](images/hiroshima.JPG)
