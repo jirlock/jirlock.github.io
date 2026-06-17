@@ -1,0 +1,36 @@
+/* ============================================================
+   FONTS — JetBrains Mono (Latin) + M PLUS 1 Code (Japanese).
+   ------------------------------------------------------------
+   Terminal-Core is monospace everywhere. Latin glyphs use
+   JetBrains Mono; Japanese (ひらがな・カタカナ・漢字) falls back per-
+   glyph to M PLUS 1 Code — a monospace coding face whose full-
+   width CJK glyphs preserve the character-cell grid. Both keep
+   the black-and-white, undecorated terminal feel.
+
+   Only two weights ship: 400 (regular) and 600 (emphasis).
+   No 300, no 700, no italics.
+
+   M PLUS 1 Code is loaded from Google Fonts (auto unicode-range
+   subsetting keeps the large CJK payload lazy). JetBrains Mono is
+   served from the Fontsource jsDelivr CDN. To self-host either,
+   drop the .woff2 files in assets/fonts/ and repoint src.
+   ============================================================ */
+
+/* Japanese monospace — must precede @font-face per CSS @import rules. */
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@400;600&display=swap");
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/fontsource/fonts/jetbrains-mono@latest/latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/fontsource/fonts/jetbrains-mono@latest/latin-600-normal.woff2") format("woff2");
+}

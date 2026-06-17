@@ -1,0 +1,51 @@
+/* ============================================================
+   COLORS — pure monochrome. No chromatic accent, ever.
+   Contrast is the only visual device. If you reach for a hue,
+   reconsider. The accent IS black.
+
+   LIGHT (paper) mode: white background, black text — like ink on
+   a man page. Semantic aliases are what UIs author against; flip
+   them and everything inverts at once.
+   ============================================================ */
+
+:root {
+  /* ---- Base scale: white → black, plus the grays between ---- */
+  --monokei-white:        #ffffff;  /* page background            */
+  --monokei-near-white:   #f6f6f6;  /* alt background, code bg     */
+  --monokei-surface:      #ededed;  /* raised surface (rare)       */
+  --monokei-border:       #d9d9d9;  /* hairline borders, rules     */
+  --monokei-dim:          #9a9a9a;  /* placeholder, disabled text  */
+  --monokei-muted:        #6a6a6a;  /* secondary / caption text    */
+  --monokei-black:        #000000;  /* primary text, the accent    */
+
+  /* ---- Semantic aliases — author UIs against these ---- */
+  --bg:            var(--monokei-white);
+  --bg-alt:        var(--monokei-near-white);
+  --surface:       var(--monokei-surface);
+
+  --text:          var(--monokei-black);
+  --text-muted:    var(--monokei-muted);
+  --text-dim:      var(--monokei-dim);
+
+  --border:        var(--monokei-border);
+
+  /* Single non-chromatic accent — it is just black. */
+  --accent:        var(--monokei-black);
+
+  /* Inverse surfaces (primary buttons, selections) */
+  --inverse-bg:    var(--monokei-black);
+  --inverse-text:  var(--monokei-white);
+
+  /* Focus ring is a 1px black border, no glow. Exposed as a token
+     so components stay consistent. */
+  --focus:         var(--monokei-black);
+
+  /* Selection */
+  --selection-bg:   var(--monokei-black);
+  --selection-text: var(--monokei-white);
+}
+
+::selection {
+  background: var(--selection-bg);
+  color: var(--selection-text);
+}

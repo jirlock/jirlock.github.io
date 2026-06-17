@@ -1,0 +1,99 @@
+/* ============================================================
+   BASE — minimal reset + element defaults built on the tokens.
+   Terminal-core: black canvas, white mono text, no decoration.
+   ============================================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--bg);
+  color: var(--text);
+  font-size: var(--text-base);
+  line-height: var(--leading-body);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: var(--text-base);
+  line-height: var(--leading-body);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Headings: same family, heavier weight, tighter leading. No size
+   jumps beyond the fixed scale. */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: var(--weight-emphasis);
+  line-height: var(--leading-heading);
+}
+h1 { font-size: var(--text-2xl); }
+h2 { font-size: var(--text-xl); }
+h3 { font-size: var(--text-lg); }
+h4, h5, h6 { font-size: var(--text-base); }
+
+p { margin: 0 0 var(--space-2); }
+
+strong, b { font-weight: var(--weight-emphasis); }
+
+/* No italics in terminal-core — render emphasis upright + bold. */
+em, i { font-style: normal; font-weight: var(--weight-emphasis); }
+
+/* Links: underlined, monochrome, invert on hover. */
+a {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+a:hover {
+  background: var(--inverse-bg);
+  color: var(--inverse-text);
+  text-decoration: none;
+}
+
+/* Horizontal rule = the primary sectioning device. */
+hr {
+  border: 0;
+  border-top: var(--rule);
+  margin: var(--space-3) 0;
+}
+
+/* Code defaults. */
+code, pre, kbd, samp {
+  font-family: var(--font-code);
+}
+code {
+  background: var(--bg-alt);
+  padding: 2px 4px;
+}
+pre {
+  background: var(--bg-alt);
+  border: var(--rule);
+  padding: var(--space-2);
+  margin: 0 0 var(--space-2);
+  overflow: auto;
+}
+pre code {
+  background: none;
+  padding: 0;
+}
+
+/* Form controls inherit the mono family by default. */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Selection list bullets kept simple. */
+ul, ol { margin: 0 0 var(--space-2); padding-left: var(--space-3); }
+
+/* Tabular figures everywhere. */
+table { border-collapse: collapse; font-variant-numeric: tabular-nums; }

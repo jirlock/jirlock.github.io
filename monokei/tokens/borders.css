@@ -1,0 +1,28 @@
+/* ============================================================
+   BORDERS, RADIUS & ELEVATION
+   ------------------------------------------------------------
+   Corners are sharp. Radius is always 0. Depth is always 0.
+   No shadows, no gradients, no transforms. Sectioning is done
+   with 1px border lines, never with elevation or whitespace.
+   These tokens exist so the rules are explicit and enforceable.
+   ============================================================ */
+
+:root {
+  /* Borders — there is one weight: hairline 1px. */
+  --border-width: 1px;
+  --border-style: solid; /* @kind other */
+  --rule: var(--border-width) var(--border-style) var(--border);
+
+  /* Radius — always zero. Pixel cells have square corners. */
+  --radius: 0;
+
+  /* Elevation — there is no elevation. Kept as a token so anyone
+     reaching for a shadow lands on "none" instead of inventing one. */
+  --shadow: none;
+  --shadow-lg: none;
+
+  /* Motion — animate feedback only (spinners, loading). Never
+     animate hover lift or decorative movement. */
+  --transition-feedback: 0.08s linear; /* @kind other */
+  --easing: linear; /* @kind other */
+}

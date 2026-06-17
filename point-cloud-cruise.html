@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>point cloud cruise — jirlock</title>
+  <link rel="stylesheet" href="monokei/styles.css">
+  <style>
+    /* Page frame — single column, centered, 720px readable measure. */
+    body {
+      max-width: var(--measure);
+      margin: 0 auto;
+      padding: var(--space-6) var(--gutter) var(--space-10);
+    }
+    @media (max-width: 480px) {
+      body { padding-left: var(--gutter-mobile); padding-right: var(--gutter-mobile); }
+    }
+
+    /* Back link to home. */
+    .back { display: inline-block; font-size: var(--text-sm); color: var(--text-muted); margin-bottom: var(--space-5); text-decoration: none; }
+    .back::before { content: "← "; }
+    .back:hover { background: var(--inverse-bg); color: var(--inverse-text); }
+
+    h1 { font-size: var(--text-2xl); margin: 0 0 var(--space-2); }
+    .tagline { color: var(--text-muted); font-size: var(--text-lg); margin: 0 0 var(--space-4); }
+
+    /* Download row. */
+    .download { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-2); margin: 0 0 var(--space-2); }
+    .btn {
+      display: inline-block;
+      border: var(--border-width) var(--border-style) var(--accent);
+      background: var(--inverse-bg);
+      color: var(--inverse-text);
+      padding: var(--space-1) var(--space-2);
+      text-decoration: none;
+      font-weight: var(--weight-emphasis);
+    }
+    .btn:hover { background: var(--bg); color: var(--text); }
+    .download .note { font-size: var(--text-sm); color: var(--text-muted); }
+
+    h2 { font-size: var(--text-xl); margin: var(--space-6) 0 var(--space-2); }
+    h2 + p, h2 + ul { margin-top: 0; }
+
+    /* Definition-style feature list. */
+    .feat { list-style: none; margin: 0; padding: 0; }
+    .feat li { padding: var(--space-2) 0; border-bottom: var(--rule); }
+    .feat li:first-child { border-top: var(--rule); }
+    .feat b { display: block; }
+    .feat span { color: var(--text-muted); }
+
+    table { width: 100%; margin: 0 0 var(--space-2); }
+    th, td { text-align: left; padding: var(--space-1) var(--space-2); border-bottom: var(--rule); }
+    th { color: var(--text-muted); font-weight: var(--weight-regular); font-size: var(--text-sm); }
+    td:first-child { white-space: nowrap; color: var(--text); }
+
+    .meta-foot { font-size: var(--text-sm); color: var(--text-muted); margin-top: var(--space-6); }
+  </style>
+</head>
+<body>
+  <a class="back" href="index.html">jirlock</a>
+
+  <h1>Point Cloud Cruise</h1>
+  <p class="tagline">Fly through massive point clouds with game-style WASD controls.</p>
+
+  <div class="download">
+    <a class="btn" href="https://github.com/jirlock/point-cloud-cruise/releases/download/v0.2.1/point-cloud-cruise-0.2.1.dmg">⬇ Download for macOS (.dmg)</a>
+    <span class="note">v0.2.1 · universal binary · apple silicon + intel</span>
+  </div>
+  <p>
+    Native C++ point cloud viewer for macOS. It streams out-of-core octrees
+    from disk, so you can open clouds far larger than your RAM, and fly through
+    them like a game level — right-mouse look, WASD + QE movement, just like the
+    Unreal Engine editor.
+  </p>
+  <p>
+    Not notarized by Apple yet: on first launch, right-click the app and choose
+    <b>Open</b>. Source on
+    <a href="https://github.com/jirlock/point-cloud-cruise">github</a>.
+  </p>
+
+  <h2>Features</h2>
+  <ul class="feat">
+    <li><b>Game-style navigation</b><span>Hold RMB to look, WASD to move, Q/E for down/up, Shift to sprint, scroll to change speed.</span></li>
+    <li><b>Larger-than-RAM clouds</b><span>Streamed into an on-disk octree cache; nodes load by screen-space priority within a RAM budget and evict LRU. A 60M-point file indexes in ~4 seconds on Apple Silicon.</span></li>
+    <li><b>Full-density snapshots</b><span>Streams every point from disk through the GPU into an offscreen buffer (up to 4x window resolution) and saves a PNG — the full cloud even when it never fit in RAM.</span></li>
+    <li><b>Double precision</b><span>Handles georeferenced coordinates (UTM etc.) without jitter.</span></li>
+  </ul>
+
+  <h2>Formats</h2>
+  <p>
+    PLY (ascii/binary), LAS, E57 (multi-scan, per-scan poses, spherical
+    coordinates, color/intensity), PCD (ascii/binary/binary_compressed),
+    XYZ/TXT/PTS/CSV. Clouds without color get a height gradient.
+    (LAZ is not supported — convert to LAS first.)
+  </p>
+
+  <h2>Controls</h2>
+  <table>
+    <thead><tr><th>input</th><th>action</th></tr></thead>
+    <tbody>
+      <tr><td>RMB drag</td><td>Look around</td></tr>
+      <tr><td>W / A / S / D</td><td>Move forward / left / back / right</td></tr>
+      <tr><td>Q / E</td><td>Move down / up</td></tr>
+      <tr><td>Shift</td><td>Sprint (4x)</td></tr>
+      <tr><td>Scroll wheel</td><td>Adjust movement speed</td></tr>
+      <tr><td>F</td><td>Reset view (fit cloud)</td></tr>
+      <tr><td>P</td><td>Take snapshot</td></tr>
+    </tbody>
+  </table>
+
+  <p class="meta-foot">
+    MIT licensed. Build from source with cmake — all dependencies are fetched
+    and statically linked.
+  </p>
+</body>
+</html>

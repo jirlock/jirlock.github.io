@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jirlock</title>
+  <link rel="stylesheet" href="monokei/styles.css">
+  <style>
+    /* Page frame — single column, centered, 720px readable measure. */
+    body {
+      max-width: var(--measure);
+      margin: 0 auto;
+      padding: var(--space-6) var(--gutter) var(--space-10);
+    }
+    @media (max-width: 480px) {
+      body { padding-left: var(--gutter-mobile); padding-right: var(--gutter-mobile); }
+    }
+
+    /* Wordmark — top-left, plain set type. */
+    .wordmark {
+      font-size: var(--text-lg);
+      font-weight: var(--weight-emphasis);
+      margin: 0 0 var(--space-6);
+    }
+
+    /* Link list — one entry per row, hairline rule between rows. */
+    .links { list-style: none; margin: 0; padding: 0; border-top: var(--rule); }
+    .links li { border-bottom: var(--rule); }
+    .links a {
+      display: block;
+      padding: var(--space-2);
+      text-decoration: none;
+      color: var(--text);
+    }
+    .links a:hover { background: var(--inverse-bg); color: var(--inverse-text); }
+    .links a:hover .title::before { color: var(--inverse-text); }
+    .title::before { content: "❯"; color: var(--text-dim); margin-right: var(--space-2); }
+  </style>
+</head>
+<body>
+  <h1 class="wordmark">jirlock</h1>
+
+  <ul class="links">
+    <li><a href="point-cloud-cruise.html"><span class="title">point cloud cruise</span></a></li>
+  </ul>
+</body>
+</html>

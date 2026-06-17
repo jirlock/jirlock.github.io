@@ -1,0 +1,50 @@
+/* ============================================================
+   TYPOGRAPHY — monospace everywhere.
+   Type scale is fixed: 12 / 14 / 16 / 20 / 28 / 40. That's it.
+   Weights: 400 regular, 600 emphasis. No 300, no 700.
+   Tabular numerals always on. No italics. No small-caps.
+   ============================================================ */
+
+:root {
+  /* ---- Family ---- */
+  --font-mono: "JetBrains Mono", "M PLUS 1 Code", "SF Mono", "IBM Plex Mono",
+               ui-monospace, "Menlo", "Consolas", monospace;
+  /* Japanese-first alias for when CJK is the dominant content and you
+     want M PLUS 1 Code to lead (e.g. long-form 日本語 body copy). */
+  --font-mono-jp: "M PLUS 1 Code", "JetBrains Mono", ui-monospace, monospace;
+  /* There is only one family. Aliased so semantic intent reads clearly. */
+  --font-body:    var(--font-mono);
+  --font-heading: var(--font-mono);
+  --font-code:    var(--font-mono);
+
+  /* ---- Fixed type scale (px) ---- */
+  --text-xs:   12px;  /* fine print, captions, table meta      */
+  --text-sm:   14px;  /* secondary text, labels, dense UI      */
+  --text-base: 16px;  /* body default                          */
+  --text-lg:   20px;  /* lead, sub-headings                    */
+  --text-xl:   28px;  /* section headings                      */
+  --text-2xl:  40px;  /* page title / hero                     */
+
+  /* ---- Weights ---- */
+  --weight-regular:  400;
+  --weight-emphasis: 600;
+
+  /* ---- Line height ---- */
+  --leading-body:    1.5;
+  --leading-heading: 1.2;
+
+  /* ---- Tracking — mono needs none ---- */
+  --tracking-normal: 0;
+
+  /* Tabular figures: always on. */
+  --numeric: tabular-nums; /* @kind other */
+}
+
+/* Baseline application — consumers linking styles.css get correct
+   defaults without extra work. */
+html {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
