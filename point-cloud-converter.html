@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>point cloud converter — jirlock</title>
+  <link rel="stylesheet" href="monokei/styles.css">
+  <style>
+    /* Page frame — single column, centered, 720px readable measure. */
+    body {
+      max-width: var(--measure);
+      margin: 0 auto;
+      padding: var(--space-6) var(--gutter) var(--space-10);
+    }
+    @media (max-width: 480px) {
+      body { padding-left: var(--gutter-mobile); padding-right: var(--gutter-mobile); }
+    }
+
+    /* Back link to home. */
+    .back { display: inline-block; font-size: var(--text-sm); color: var(--text-muted); margin-bottom: var(--space-5); text-decoration: none; }
+    .back::before { content: "← "; }
+    .back:hover { background: var(--inverse-bg); color: var(--inverse-text); }
+
+    h1 { font-size: var(--text-2xl); margin: 0 0 var(--space-2); }
+    .tagline { color: var(--text-muted); font-size: var(--text-lg); margin: 0 0 var(--space-4); }
+
+    /* Download rows. */
+    .download { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-2); margin: 0 0 var(--space-2); }
+    .btn {
+      display: inline-block;
+      border: var(--border-width) var(--border-style) var(--accent);
+      background: var(--inverse-bg);
+      color: var(--inverse-text);
+      padding: var(--space-1) var(--space-2);
+      text-decoration: none;
+      font-weight: var(--weight-emphasis);
+    }
+    .btn:hover { background: var(--bg); color: var(--text); }
+    .download .note { font-size: var(--text-sm); color: var(--text-muted); }
+
+    h2 { font-size: var(--text-xl); margin: var(--space-6) 0 var(--space-2); }
+    h2 + p, h2 + ul, h2 + table { margin-top: 0; }
+
+    /* Definition-style feature list. */
+    .feat { list-style: none; margin: 0; padding: 0; }
+    .feat li { padding: var(--space-2) 0; border-bottom: var(--rule); }
+    .feat li:first-child { border-top: var(--rule); }
+    .feat b { display: block; }
+    .feat span { color: var(--text-muted); }
+
+    table { width: 100%; margin: 0 0 var(--space-2); }
+    th, td { text-align: left; padding: var(--space-1) var(--space-2); border-bottom: var(--rule); }
+    th { color: var(--text-muted); font-weight: var(--weight-regular); font-size: var(--text-sm); }
+    td:first-child { white-space: nowrap; color: var(--text); }
+
+    .meta-foot { font-size: var(--text-sm); color: var(--text-muted); margin-top: var(--space-6); }
+  </style>
+</head>
+<body>
+  <a class="back" href="index.html">jirlock</a>
+
+  <h1>Point Cloud Converter</h1>
+  <p class="tagline">Convert between point cloud formats, and thin huge clouds down to a size your machine can open.</p>
+
+  <div class="download">
+    <a class="btn" href="downloads/PointCloudConverter_0.1.0_universal.dmg" download>⬇ Download for macOS (.dmg)</a>
+    <span class="note">v0.1.0 · 7.4 MB · universal · apple silicon + intel · signed &amp; notarized</span>
+  </div>
+  <div class="download">
+    <a class="btn" href="downloads/PointCloudConverter_0.1.0_x64-setup.exe" download>⬇ Download for Windows (.exe)</a>
+    <span class="note">v0.1.0 · 2.2 MB · 64-bit · unsigned</span>
+  </div>
+  <p>
+    macOS is notarized by Apple, so it opens normally. On Windows it isn't signed
+    yet — if SmartScreen warns, click <b>More info → Run anyway</b>. Linux builds
+    (.deb / .rpm / AppImage) coming later.
+  </p>
+
+  <p>
+    A small, focused converter for point cloud files. It streams every point from
+    disk through a fixed-size pipeline, so memory use stays flat no matter how big
+    the file is — you can convert clouds far larger than your RAM. When a file is
+    too big to open elsewhere, it can downsample to a target size you pick (in MB,
+    GB, or a point count) while preserving the original distribution.
+  </p>
+
+  <h2>Features</h2>
+  <ul class="feat">
+    <li><b>Any-to-any conversion</b><span>Read and write across every supported format through one common internal point model — hub and spoke, not a tangle of pairwise converters.</span></li>
+    <li><b>Larger-than-RAM files</b><span>A streaming Reader → Transform → Writer pipeline processes one batch at a time, so memory stays constant regardless of file size.</span></li>
+    <li><b>Size-targeted downsampling</b><span>Aim for a target output size — MB, GB, or a point count — and it thins the cloud randomly while keeping the original spatial distribution. Deterministic, so the same input gives the same result.</span></li>
+    <li><b>Beginner-friendly UI</b><span>Pick a file, choose an output format and size, choose where to save. No flags, no command line.</span></li>
+  </ul>
+
+  <h2>Formats</h2>
+  <p>All formats convert to and from each other:</p>
+  <table>
+    <thead><tr><th>format</th><th>notes</th></tr></thead>
+    <tbody>
+      <tr><td>XYZ / CSV / PTS / TXT</td><td>Plain ascii point lists</td></tr>
+      <tr><td>LAS / LAZ</td><td>Compressed and uncompressed lidar; round-trip verified</td></tr>
+      <tr><td>PLY</td><td>ascii / binary read, binary write</td></tr>
+      <tr><td>PCD</td><td>ascii / binary read, binary write</td></tr>
+      <tr><td>E57</td><td>Multi-scan, spherical coordinates, per-scan poses</td></tr>
+    </tbody>
+  </table>
+
+  <p class="meta-foot">
+    Built in Rust. A standalone command-line tool is available alongside the desktop app.
+  </p>
+</body>
+</html>
